@@ -1,0 +1,18 @@
+:root{
+ --color-background:#fffdf7;
+ --color-back:#212121;
+ --color-back-heavy:#000000;
+ --color-text:#4f4f4f;
+ --color-text-out:#90908e;
+ --color-primary:#ffbf00;
+ --coor-secundary:#fff2cc;
+ --color-white:#ffffff;
+ --color-red:#e74c3c;
+ --color-grenn:#2ecc71;
+ --color-separate:#cccccc;
+}
+
+html, body{
+    background-color: red;
+ 
+}
