@@ -43,6 +43,9 @@ html, body{
         font-size:20px;
         box-shadow:0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     }
+    .btn-white.active, .btn-white:hover{
+        background-color: var(--color-primary);
+    }
     .btn-icon{
         padding-right: 75px;
     }
@@ -112,4 +115,62 @@ a.navbar-brand{
         border-radius: 15px;
         text-align: center;
         padding-top: 8px;
+    }
+
+    .car{
+        border-radius:350px;
+        padding: 15px 20px;
+        font-size: 20px;
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1)!important;
+    }
+
+    .card-case{
+        width: 350px;
+        font-size: 14px;
+        position: absolute;
+        right: 0;
+        bottom: -75px;
+    }
+
+    .card-case-name{
+        position: absolute;
+        font-size: 12px;
+        color: var(--color-primary);
+        right: 20px;
+        bottom: 10px ;
+    }
+    
+    .serviços {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .hint-title{
+        color: var(--color-primary);
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    .title {
+        color: var(--color-back);
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .card-icon{
+        height: 150px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-text{
+        color: var(--color-text-out);
+        font-size: 15px;
+        padding: 0px 30px;
+    }
+    .card-text{
+        font-size: 22px;
+        color: var(--color-black);
+        margin-bottom: 10px;
     }
